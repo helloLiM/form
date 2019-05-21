@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/abc" methon="post">
+        <div class="name">
+            <label for="name">姓名：</label><input type="text" name="name" placeholder="用户名">
+        </div>
+        <div class="password">
+            <label for="password">密码：</label><input type="password" name="password" placeholder="请输入密码">
+        </div>
+        <div class="sex">
+            <label for="sex">性别：</label>
+            <input type="radio" name="sex" value="man">男
+            <input type="radio" name="sex" value="woman">女
+        </div>
+        <div class="sex2">
+            <label for="sex1">取向：</label>
+            <input type="radio" name="sex1" value="likeman">男
+            <input type="radio" name="sex1" value="likewoman">女
+        </div>
+        <div class="checkbox">
+            <label for="checkbox">爱好:</label>
+            <input type="checkbox" name="hobby" value="dota">dota
+            <input type="checkbox" name="hobby" value="lvyou">旅游
+            <input type="checkbox" name="hobby" value="chongwu">宠物
+        </div>
+        <div class="article">
+            <label for="textarea">评论:</label>
+            <textarea name="article" id="#" cols="40" rows="10">ddd</textarea>
+        </div>
+        <div class="select">
+            <label for="mycar">我的car:</label>
+            <select name="mycar" id="#">
+                <option value="motor">摩托</option>
+                <option value="bike">共享单车</option>
+                <option value="none" selected>none</option>
+                <input type="button" name="提交" value="提交">
+            </select>
+        </div>
+    </form>
+</body>
+</html>
